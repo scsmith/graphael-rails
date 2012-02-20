@@ -1,6 +1,6 @@
-module Raphael
+module Graphael
   module Rails
     VERSION = "0.0.1"
-    RAPHAEL_VERSION = "2.0.2"
+    GRAPHAEL_VERSION = "0.5.0"
   end
 end

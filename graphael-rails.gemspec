@@ -1,18 +1,19 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/raphael/rails/version', __FILE__)
+require File.expand_path('../lib/graphael/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "raphael-rails"
-  s.version     = Raphael::Rails::VERSION
+  s.name        = "graphael-rails"
+  s.version     = Graphael::Rails::VERSION
   s.authors     = ["Steve Smith"]
   s.email       = ["github@scsworld.co.uk"]
   s.homepage    = ""
-  s.summary     = "Use Raphael.js with Rails 3"
-  s.description = "This gem provides Raphael.js for your Rails 3 application."
+  s.summary     = "Use gRaphael.js with Rails 3"
+  s.description = "This gem provides Raphael's graph javascripts for your Rails 3 application."
 
   s.rubyforge_project = "raphael-rails"
 
   s.add_dependency "railties", ">= 3.1.3"
+  s.add_dependency "raphael-rails", "= 0.0.1"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
